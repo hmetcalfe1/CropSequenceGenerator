@@ -250,7 +250,7 @@ for year=1:numyears-1 %Go through each year
             grass2counter(field,1)=grass2counter(field,1)+1;%add 1 onto the 
             %grass2counter
         else
-            grass1counter(field,1)=max(0,osrcounter(field,1)-1);%reduce the 
+            grass1counter(field,1)=max(0,grass1counter(field,1)-1);%reduce the 
             %grass1 counter by 1 but stop at zero
             grass2counter(field,1)=0;%reset the grass2 counter to 0
         end

@@ -1,0 +1,3 @@
+crop prop
+gr1 0
+gr2 1
